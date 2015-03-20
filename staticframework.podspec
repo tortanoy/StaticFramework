@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     LICENSE
   }
 
-  s.source       = { :git => "https://github.com/tortanoy/StaticFramework.git", :tag => 'v1.0' }
+  s.source       = { :git => "https://github.com/tortanoy/StaticFramework.git", :tag => 'v1.0.1' }
   s.platform     = :ios, '8.0'
   s.ios.vendored_frameworks = "StaticFrameworkTest.framework";
   s.resources = "Resource.bundle"
