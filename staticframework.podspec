@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/tortanoy/StaticFramework.git", :tag => 'v1.0' }
   s.platform     = :ios, '8.0'
-  s.source_files = 'StaticFrameworkTest', 'StaticFrameworkTest/**/*.{h,m}'
+  s.ios.vendored_frameworks = "StaticFrameworkTest.framework";
   s.resources = "Resource.bundle"
   s.requires_arc = true
   s.dependency 'AFNetworking'
