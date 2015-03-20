@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name         = "Staticframework"
-  s.version      = "0.0.1"
+  s.name         = "StaticframeworkTest"
+  s.version      = "1.0.1"
   s.summary      = "Test staticframework"
   s.homepage     = "https://github.com/tortanoy/StaticFramework"
   s.license      = { :type => 'Apache License, Version 2.0', :text => <<-LICENSE
@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
     LICENSE
   }
 
+  s.author             = { "Surapong Suwanlee" => "mr.surapong.s@gmail.com" }
   s.source       = { :git => "https://github.com/tortanoy/StaticFramework.git", :tag => 'v1.0.1' }
   s.platform     = :ios, '8.0'
   s.ios.vendored_frameworks = "StaticFrameworkTest.framework";
