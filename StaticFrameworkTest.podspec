@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "StaticframeworkTest"
+  s.name         = "StaticFrameworkTest"
   s.version      = "1.0.1"
   s.summary      = "Test staticframework"
   s.homepage     = "https://github.com/tortanoy/StaticFramework"
